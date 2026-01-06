@@ -18,9 +18,11 @@ async function envoyerClient(client) {
     console.error(error);
     alert("Erreur lors de l'envoi");
   } else {
-    alert("Client enregistré !");
+    alert("  votre message à eete bien envoyer!");
     afficherClients();
+    
   }
+    window.location.href = "page2.html";
 }
 
 // Fonction pour afficher tous les clients
